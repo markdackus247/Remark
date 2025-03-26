@@ -18,38 +18,48 @@ De MoSCoW-methode wordt gebruikt om eisen te prioriteren in vier categorieën: M
 De "Must Have" eisen zijn essentieel voor het succes van het project en moeten worden geïmplementeerd om aan de basisvereisten te voldoen.
 
 - **Kennisdatabase Applicatie:**
-  - Ondersteuning voor opslaan van tekst, afbeeldingen, hyperlinks en video's.
-  - Gebruikersvriendelijke en responsieve interface voor zowel desktop als mobiele apparaten.
+  - Ondersteuning voor opslaan van noties met tekst, afbeeldingen, hyperlinks en video's.
+  - Checklist van noties die door de gebruiker kunnen afgevinkt.
   - Zoekfunctie met tags en categorieën.
-  - Encryptie voor gevoelige gegevens.
-  - Tweefactorauthenticatie (2FA) voor gebruikersaccounts.
-  - Versleutelde e-mailcommunicatie.
+  - Tweefactorauthenticatie (2FA) voor gebruikersaccounts. Geen gebruik van email en sms. Geen Microsoft en Google autorisatie systeem. Liefst proton.
+  - Alles online opslaan en niet op het apparaat zelf. Inclusief settings.
+  - Metatags moeten kunnen worden toegevoegd aan notities.
+  - Notities die worden verwijderd moeten in het archief van de gebruiker geplaatst worden.
+  - Data moet in eigen beheer zijn.
 
 - **Integraties:**
-  - Integratie met YouTube voor het weergeven van video's en onderhouden van thumbnails.
+  - Integratie met YouTube voor het weergeven van video's (embedded) en onderhouden van thumbnails.
   - Ondersteuning voor exporteren van gegevens naar PDF.
+  - Onderzoeken van de session cookie.
+
+- **Design en Frontend**
+  - Eenvoudige navigatie en gebruiksvriendelijke interface.
+  - Leesbaar font
+  - Gebruikersinterface van de applicatie moet intiutief zijn.
+  - Notities moeten kunnen worden vastgezet op de desktop (pinnen).
+
 
 ## Should Have
 De "Should Have" eisen zijn belangrijk, maar niet kritisch. Deze eisen moeten worden geïmplementeerd als de tijd en middelen het toelaten.
 
 - **Gebruiksvriendelijkheid:**
-  - Eenvoudige navigatie en gebruiksvriendelijke interface.
-  - Filters om gegevens op verschillende manieren te sorteren en bekijken.
-  - Notificaties en meldingen voor belangrijke updates en gebeurtenissen.
+  - Filters om gegevens op verschillende manieren te sorteren en bekijken. Categorie, kleur, filenaam en labels.
 
-- **Extra Functionaliteiten:**
-  - Ondersteuning voor het toevoegen van aangepaste labels en categorieën.
-  - Integratie met andere softwaretools zoals Google Docs en Microsoft Office.
+- **Kennisdatabase Applicatie:**
+  - Data moet in eigen beheer zijn.
 
 ## Could Have
 De "Could Have" eisen zijn wensen die de gebruikerservaring kunnen verbeteren, maar zijn niet essentieel voor de basisfunctionaliteit van het project.
 
+- **Functionaliteiten:**
+  - Tekeningen toevoegen aan notities.
+
 - **Verbeterde Interface:**
-  - Grafische interface voor het weergeven van grafieken en diagrammen.
   - Ondersteuning voor het aanpassen van de gebruikersinterface thema's.
 
-- **Extra Integraties:**
+- **Extra integraties:**
   - Integratie met andere cloud-opslagdiensten zoals Dropbox of OneDrive.
+  - Responsieve interface voor zowel desktop als mobiele apparaten.
 
 ## Won't Have
 De "Won't Have" eisen zijn buiten de scope van dit project en zullen niet worden geïmplementeerd.
